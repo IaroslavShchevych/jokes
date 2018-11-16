@@ -18,6 +18,7 @@ if ($result->num_rows > 0) {
 } else {
     echo "0 results";
 }
+$mysqli->close();
 //Koniec odbioru danych z tabeli i pokazu ich 
 
 ?>
